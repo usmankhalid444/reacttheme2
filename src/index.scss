@@ -1,0 +1,27 @@
+/** @format */
+
+body {
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  background-color: #4608ad;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+button {
+  color: white;
+  background-color: gray;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  &:hover {
+    background-color: #1e1e1e;
+  }
+}
